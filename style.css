@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.f-nav{
+ display: flex;
+ justify-content: center;
+ justify-content:  space-around;
+ background-color: rgb(251, 106, 130);
+ padding: 18px;
+ list-style-type: none;
+}
+
+.feature{
+    display: flex;
+}
+
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+
+.feature.app i{
+    margin-inline: 8px;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+}
+
+.sec-nav ul li img{
+    width: 8%;
+    margin-left: 22px;
+}
+
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+
+.sec-nav .inputs{
+    display: flex;
+}
+
+.sec-nav .inputs button{
+    margin-inline: 22px;
+}
+
+.sec-nav .inputs input{
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid black;
+    outline: black;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    position: top;
+}
+
+
+.sec-nav .inputs button{
+    width: 100px;
+    height: 51px;
+    background-color: white;
+    color: rgb(251, 106, 130);
+    border: 2px solid black;
+    outline: black;
+    font-size: 17px;
+    /* border: none; */
+    /* border-radius: 5px; */
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.items ul li a{
+    list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+}
+
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.items ul li{
+    list-style: none;
+}
+
+.sec-nav .nyka-bar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    height: 95px;
+}
+
+.sec-nav .nyka-bar .inputs{
+    align-items: center;
+}
+
+
+.sec-nav .nyka-bar img{
+    width: 120px;
+    margin-inline: 29px;
+    margin: 0;
+    padding: 0;
+}
+
+.sec-nav .nyka-bar ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+
+.sec-nav  .nyka-bar  a{
+    margin-inline: 22px;
+    text-decoration: none;
+}
+
+.sec-nav .nyka-bar .inputs{
+    display: flex;
+    align-items: center;
+}
+
+.sec-nav .nyka-bar .inputs button{
+    margin-inline: 22px;
+    align-items: center;
+}
+
+
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+    white-space: nowrap;
+    background-color: rgb(251, 106, 130);
+}
+
+.items ul li a1{
+    list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: white;
+    color: rgb(251, 106, 130);
+    font-size: 17px;
+    border: black;
+    outline: black;
+    border-radius: 5px;
+
+}
+
+.items ul li{
+    list-style: none;
+}
+
+.main-img{
+    width: 100%;
+    text-align: center;
+    /* padding: 0px; */
+}
+
+.pink img{
+    width: 13%;
+    height: 250px;
+    padding: 50px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.pink h2{
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(251, 106, 130);
+}
+
+.brand h2{
+    text-align: center;
+    background-color: rgb(251, 106, 130);
+}
+
+.card{
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-inline: 22px;
+}
+
+
+
+
+.bestsellers h2{
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(251, 106, 130);
+}
+
+.bestsellers img{
+    width: 15%;
+    height: 200px;
+    padding: 11px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards h2{
+    text-align: center;
+    padding: 7px;
+    background-color: rgb(251, 106, 130);
+}
+
+.cards img{
+    width: 20%;
+    height: 200px;
+    padding: 35px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand h2{
+    text-align: center;
+    padding: 22px;
+    background: rgb(251, 106, 130);
+}
+
+.brand img{
+    width: 28%;
+    height: 290px;
+    padding: 38px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.only-nykaa h2{
+    text-align: center;
+    padding: 22px;
+    background-color: rgb(251, 106, 130);
+}
+
+.only-nykaa img{
+    width: 20%;
+    height: 300px;
+    padding: 36px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.special h2{
+    text-align: center;
+    padding: 22px;
+    background-color: rgb(251, 106, 130);
+}
+
+.special img{
+    width: 21%;
+    height: 290px;
+    padding: 29px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+    background-color: rgb(251, 106, 130);
+}
+
+.beauty img{
+    width: 10%;
+    height: 230px;
+    padding: 30px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(251, 106, 130);
+    text-decoration: none;
+}
+
+.footer .list{
+     flex-direction: column;
+     text-decoration: none;
+}
+
+.footer .list ul li{
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer .list ul li a{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.footer .list ul li h2{
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+}
+
